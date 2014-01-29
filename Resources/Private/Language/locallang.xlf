@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T14:51:14Z" product-name="dst_ligaverwaltung">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_dstligaverwaltung_domain_model_saison">
+				<source>Saison</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle">
+				<source>Sporthalle</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein">
+				<source>Verein</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler">
+				<source>Spieler</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spiel">
+				<source>Spiel</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga">
+				<source>Liga</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_schiedsrichter">
+				<source>Schiedsrichter</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer">
+				<source>Trainer</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,289 @@
+{"modules": [
+    {
+        "config": {
+            "position": [10, 46]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Saison",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "548493827357"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [9, 169]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Sporthalle",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "605180720376"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [14, 307]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Verein",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "872162734749"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [19, 468]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Spieler",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "1245817341368"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [239, 57]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Spiel",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "313910139886"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [235, 189]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Liga",
+            "objectsettings": {
+                "aggregateRoot": true,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "552011489952"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [235, 314]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Schiedsrichter",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "1037889431935"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    },
+    {
+        "config": {
+            "position": [610, 197]
+        },
+        "name": "New Model Object",
+        "value": {
+            "actionGroup": {
+                "_default0_list": false,
+                "_default1_show": false,
+                "_default2_new_create": false,
+                "_default3_edit_update": false,
+                "_default4_delete": false,
+                "customActions": []
+            },
+            "name": "Trainer",
+            "objectsettings": {
+                "aggregateRoot": false,
+                "description": "",
+                "mapToTable": "",
+                "parentClass": "",
+                "sorting": false,
+                "type": "Entity",
+                "uid": "204258511034"
+            },
+            "propertyGroup": {
+                "properties": []
+            },
+            "relationGroup": {
+                "relations": []
+            }
+        }
+    }
+], "properties": {
+    "backendModules": [],
+    "description": "\u00dcberarbeitung der DRS-Ligenverwaltung",
+    "emConf": {
+        "category": "plugin",
+        "custom_category": "",
+        "dependsOn": "extbase => 6.0\nfluid => 6.0\ntypo3 => 6.0\n",
+        "disableVersioning": false,
+        "priority": "",
+        "shy": false,
+        "state": "alpha",
+        "targetVersion": "6.0",
+        "version": "0.0.1"
+    },
+    "extensionKey": "dst_ligaverwaltung",
+    "name": "Ligaverwaltung",
+    "originalExtensionKey": "",
+    "persons": [
+        {
+            "company": "",
+            "email": "daniel.stange@gmail.com",
+            "name": "Daniel Stange",
+            "role": "Developer"
+        }
+    ],
+    "plugins": [],
+    "vendorName": "TYPO3"
+}, "wires": [], "log": {
+    "last_modified": "2014-01-29 02:51",
+    "extension_builder_version": "2.5.2",
+    "be_user": "Daniel Stange (2)"
+}}

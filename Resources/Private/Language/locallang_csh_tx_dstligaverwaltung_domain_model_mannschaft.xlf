@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T14:02:42Z" product-name="dst_ligaverwaltung">
+		<header/>
+		<body>
+
+			<trans-unit id="name.description">
+				<source>Name des Teams</source>
+			</trans-unit>
+			<trans-unit id="ordnungszahl.description">
+				<source>Ordnungszahl</source>
+			</trans-unit>
+			<trans-unit id="trainer.description">
+				<source>trainer</source>
+			</trans-unit>
+			<trans-unit id="cotrainer.description">
+				<source>cotrainer</source>
+			</trans-unit>
+			<trans-unit id="verein.description">
+				<source>verein</source>
+			</trans-unit>
+			<trans-unit id="halle.description">
+				<source>halle</source>
+			</trans-unit>
+			<trans-unit id="ansprechpartner.description">
+				<source>ansprechpartner</source>
+			</trans-unit>
+			<trans-unit id="spieler.description">
+				<source>spieler</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

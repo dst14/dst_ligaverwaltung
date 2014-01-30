@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T14:02:42Z" product-name="dst_ligaverwaltung">
+		<header/>
+		<body>
+
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="vorname.description">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="telp.description">
+				<source>telp</source>
+			</trans-unit>
+			<trans-unit id="telmobil.description">
+				<source>telmobil</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -2,28 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026697a6-3c80-4a18-8316-b86e2eef699d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtensionBuilder.json" afterPath="$PROJECT_DIR$/ExtensionBuilder.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/Index.rst" afterPath="$PROJECT_DIR$/Documentation/Index.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Liga.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Liga.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Liga.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Liga.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/LigaTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/LigaTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Saison.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Saison.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Saison.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Saison.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SaisonTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SaisonTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Spieler.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Spieler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Spieler.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Spieler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SpielerTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SpielerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_emconf.php" afterPath="$PROJECT_DIR$/ext_emconf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_tables.php" afterPath="$PROJECT_DIR$/ext_tables.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_tables.sql" afterPath="$PROJECT_DIR$/ext_tables.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_liga.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_liga.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_saison.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_saison.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spieler.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spieler.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_sporthalle.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_sporthalle.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_trainer.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_trainer.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_verein.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_verein.xlf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dst_ligaverwaltung.iws" />
@@ -306,7 +284,11 @@
       <created>1391085902544</created>
       <updated>1391085902544</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Additional domain modelling and basic classes/actions">
+      <created>1391087018913</created>
+      <updated>1391087018913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -344,7 +326,8 @@
     </option>
     <MESSAGE value="Basic extension setup" />
     <MESSAGE value="Elementary domain modelling and basic classes/actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elementary domain modelling and basic classes/actions" />
+    <MESSAGE value="Additional domain modelling and basic classes/actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional domain modelling and basic classes/actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

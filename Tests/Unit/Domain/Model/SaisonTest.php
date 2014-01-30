@@ -54,17 +54,17 @@ class SaisonTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	/**
 	 * @test
 	 */
-	public function getSaisonReturnsInitialValueForString() { }
+	public function getSpieljahrReturnsInitialValueForString() { }
 
 	/**
 	 * @test
 	 */
-	public function setSaisonForStringSetsSaison() { 
-		$this->fixture->setSaison('Conceived at T3CON10');
+	public function setSpieljahrForStringSetsSpieljahr() { 
+		$this->fixture->setSpieljahr('Conceived at T3CON10');
 
 		$this->assertSame(
 			'Conceived at T3CON10',
-			$this->fixture->getSaison()
+			$this->fixture->getSpieljahr()
 		);
 	}
 	

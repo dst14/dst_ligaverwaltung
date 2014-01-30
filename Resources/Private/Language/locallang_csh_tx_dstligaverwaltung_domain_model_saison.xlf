@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T15:45:23Z" product-name="dst_ligaverwaltung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T14:02:42Z" product-name="dst_ligaverwaltung">
 		<header/>
 		<body>
 
-			<trans-unit id="saison.description">
-				<source>Spielzeiten-Bezeichner</source>
+			<trans-unit id="spieljahr.description">
+				<source>spieljahr</source>
 			</trans-unit>
 		</body>
 	</file>

@@ -50,13 +50,149 @@ class LigaTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getBezeichnungReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setBezeichnungForStringSetsBezeichnung() { 
+		$this->fixture->setBezeichnung('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getBezeichnung()
+		);
+	}
 	
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getSpielleiterReturnsInitialValueForAdministrator() { 
+		$newObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$this->assertEquals(
+			$newObjectStorage,
+			$this->fixture->getSpielleiter()
+		);
 	}
+
+	/**
+	 * @test
+	 */
+	public function setSpielleiterForObjectStorageContainingAdministratorSetsSpielleiter() { 
+		$spielleiter = new \TYPO3\DstLigaverwaltung\Domain\Model\Administrator();
+		$objectStorageHoldingExactlyOneSpielleiter = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneSpielleiter->attach($spielleiter);
+		$this->fixture->setSpielleiter($objectStorageHoldingExactlyOneSpielleiter);
+
+		$this->assertSame(
+			$objectStorageHoldingExactlyOneSpielleiter,
+			$this->fixture->getSpielleiter()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function addSpielleiterToObjectStorageHoldingSpielleiter() {
+		$spielleiter = new \TYPO3\DstLigaverwaltung\Domain\Model\Administrator();
+		$objectStorageHoldingExactlyOneSpielleiter = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneSpielleiter->attach($spielleiter);
+		$this->fixture->addSpielleiter($spielleiter);
+
+		$this->assertEquals(
+			$objectStorageHoldingExactlyOneSpielleiter,
+			$this->fixture->getSpielleiter()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function removeSpielleiterFromObjectStorageHoldingSpielleiter() {
+		$spielleiter = new \TYPO3\DstLigaverwaltung\Domain\Model\Administrator();
+		$localObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$localObjectStorage->attach($spielleiter);
+		$localObjectStorage->detach($spielleiter);
+		$this->fixture->addSpielleiter($spielleiter);
+		$this->fixture->removeSpielleiter($spielleiter);
+
+		$this->assertEquals(
+			$localObjectStorage,
+			$this->fixture->getSpielleiter()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getMannschaftenReturnsInitialValueForMannschaft() { 
+		$newObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$this->assertEquals(
+			$newObjectStorage,
+			$this->fixture->getMannschaften()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setMannschaftenForObjectStorageContainingMannschaftSetsMannschaften() { 
+		$mannschaften = new \TYPO3\DstLigaverwaltung\Domain\Model\Mannschaft();
+		$objectStorageHoldingExactlyOneMannschaften = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneMannschaften->attach($mannschaften);
+		$this->fixture->setMannschaften($objectStorageHoldingExactlyOneMannschaften);
+
+		$this->assertSame(
+			$objectStorageHoldingExactlyOneMannschaften,
+			$this->fixture->getMannschaften()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function addMannschaftenToObjectStorageHoldingMannschaften() {
+		$mannschaften = new \TYPO3\DstLigaverwaltung\Domain\Model\Mannschaft();
+		$objectStorageHoldingExactlyOneMannschaften = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneMannschaften->attach($mannschaften);
+		$this->fixture->addMannschaften($mannschaften);
+
+		$this->assertEquals(
+			$objectStorageHoldingExactlyOneMannschaften,
+			$this->fixture->getMannschaften()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function removeMannschaftenFromObjectStorageHoldingMannschaften() {
+		$mannschaften = new \TYPO3\DstLigaverwaltung\Domain\Model\Mannschaft();
+		$localObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$localObjectStorage->attach($mannschaften);
+		$localObjectStorage->detach($mannschaften);
+		$this->fixture->addMannschaften($mannschaften);
+		$this->fixture->removeMannschaften($mannschaften);
+
+		$this->assertEquals(
+			$localObjectStorage,
+			$this->fixture->getMannschaften()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getSaisonReturnsInitialValueForSaison() { }
+
+	/**
+	 * @test
+	 */
+	public function setSaisonForSaisonSetsSaison() { }
 	
 }
 ?>

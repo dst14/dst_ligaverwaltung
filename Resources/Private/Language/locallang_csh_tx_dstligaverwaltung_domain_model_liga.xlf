@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T15:43:17Z" product-name="dst_ligaverwaltung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T14:02:42Z" product-name="dst_ligaverwaltung">
 		<header/>
 		<body>
 
+			<trans-unit id="bezeichnung.description">
+				<source>bezeichnung</source>
+			</trans-unit>
+			<trans-unit id="spielleiter.description">
+				<source>spielleiter</source>
+			</trans-unit>
+			<trans-unit id="mannschaften.description">
+				<source>mannschaften</source>
+			</trans-unit>
+			<trans-unit id="saison.description">
+				<source>saison</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T16:25:17Z" product-name="dst_ligaverwaltung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-30T14:02:42Z" product-name="dst_ligaverwaltung">
 		<header/>
 		<body>
 
@@ -25,11 +25,11 @@
 			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.halle">
 				<source>halle</source>
 			</trans-unit>
-			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.spieler">
-				<source>spieler</source>
-			</trans-unit>
 			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.ansprechpartner">
 				<source>ansprechpartner</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.spieler">
+				<source>spieler</source>
 			</trans-unit>
 			
 			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer">
@@ -112,6 +112,91 @@
 			</trans-unit>
 			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle.gymlat">
 				<source>gymlat</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler">
+				<source>Spieler</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.vorname">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.geschlecht">
+				<source>geschlecht</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.klassifizierung">
+				<source>klassifizierung</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.drslizenz">
+				<source>drslizenz</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.geburtsdatum">
+				<source>geburtsdatum</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler.lizenzdatum">
+				<source>lizenzdatum</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga">
+				<source>Liga</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga.bezeichnung">
+				<source>bezeichnung</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga.spielleiter">
+				<source>spielleiter</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga.mannschaften">
+				<source>mannschaften</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_liga.saison">
+				<source>saison</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator">
+				<source>Administrator</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.vorname">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.email">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.tel">
+				<source>tel</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.fax">
+				<source>fax</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.mobil">
+				<source>mobil</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.tel2">
+				<source>tel2</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.adresse">
+				<source>adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.plz">
+				<source>plz</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.ort">
+				<source>ort</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_administrator.land">
+				<source>land</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_dstligaverwaltung_domain_model_saison">
+				<source>Saison</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_saison.spieljahr">
+				<source>spieljahr</source>
 			</trans-unit>
 			
 		</body>

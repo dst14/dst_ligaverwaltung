@@ -17,8 +17,8 @@ Extension Name
 :Description: manuals covering TYPO3 extension "Ligaverwaltung"
 :Language: en
 :Author: Daniel Stange
-:Creation: 2014-01-29
-:Generation: 16:25
+:Creation: 2014-01-30
+:Generation: 14:02
 :Licence: Open Content License available from `www.opencontent.org/opl.shtml <http://www.opencontent.org/opl.shtml>`_
 
 The content of this document is related to TYPO3, a GNU/GPL CMS/Framework available from `www.typo3.org

@@ -50,13 +50,116 @@ class SpielerTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getNameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setNameForStringSetsName() { 
+		$this->fixture->setName('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getName()
+		);
+	}
 	
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getVornameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setVornameForStringSetsVorname() { 
+		$this->fixture->setVorname('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getVorname()
+		);
 	}
+	
+	/**
+	 * @test
+	 */
+	public function getGeschlechtReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setGeschlechtForStringSetsGeschlecht() { 
+		$this->fixture->setGeschlecht('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getGeschlecht()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getKlassifizierungReturnsInitialValueForFloat() { 
+		$this->assertSame(
+			0.0,
+			$this->fixture->getKlassifizierung()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setKlassifizierungForFloatSetsKlassifizierung() { 
+		$this->fixture->setKlassifizierung(3.14159265);
+
+		$this->assertSame(
+			3.14159265,
+			$this->fixture->getKlassifizierung()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getDrslizenzReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setDrslizenzForStringSetsDrslizenz() { 
+		$this->fixture->setDrslizenz('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getDrslizenz()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getGeburtsdatumReturnsInitialValueForDateTime() { }
+
+	/**
+	 * @test
+	 */
+	public function setGeburtsdatumForDateTimeSetsGeburtsdatum() { }
+	
+	/**
+	 * @test
+	 */
+	public function getLizenzdatumReturnsInitialValueForDateTime() { }
+
+	/**
+	 * @test
+	 */
+	public function setLizenzdatumForDateTimeSetsLizenzdatum() { }
 	
 }
 ?>

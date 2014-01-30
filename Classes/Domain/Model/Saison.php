@@ -35,30 +35,29 @@ namespace TYPO3\DstLigaverwaltung\Domain\Model;
 class Saison extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
 
 	/**
-	 * Spielzeiten-Bezeichner
+	 * spieljahr
 	 *
 	 * @var \string
-	 * @validate NotEmpty
 	 */
-	protected $saison;
+	protected $spieljahr;
 
 	/**
-	 * Returns the saison
+	 * Returns the spieljahr
 	 *
-	 * @return \string $saison
+	 * @return \string $spieljahr
 	 */
-	public function getSaison() {
-		return $this->saison;
+	public function getSpieljahr() {
+		return $this->spieljahr;
 	}
 
 	/**
-	 * Sets the saison
+	 * Sets the spieljahr
 	 *
-	 * @param \string $saison
+	 * @param \string $spieljahr
 	 * @return void
 	 */
-	public function setSaison($saison) {
-		$this->saison = $saison;
+	public function setSpieljahr($spieljahr) {
+		$this->spieljahr = $spieljahr;
 	}
 
 }

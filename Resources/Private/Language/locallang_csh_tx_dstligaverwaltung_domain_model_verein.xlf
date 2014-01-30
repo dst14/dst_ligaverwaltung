@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T14:51:14Z" product-name="dst_ligaverwaltung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T16:25:17Z" product-name="dst_ligaverwaltung">
 		<header/>
 		<body>
 
+			<trans-unit id="name.description">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="strasse.description">
+				<source>strasse</source>
+			</trans-unit>
+			<trans-unit id="plz.description">
+				<source>plz</source>
+			</trans-unit>
+			<trans-unit id="ort.description">
+				<source>ort</source>
+			</trans-unit>
+			<trans-unit id="bundesland_l_v.description">
+				<source>bundeslandLV</source>
+			</trans-unit>
+			<trans-unit id="land.description">
+				<source>land</source>
+			</trans-unit>
+			<trans-unit id="webseite.description">
+				<source>webseite</source>
+			</trans-unit>
+			<trans-unit id="allg_email.description">
+				<source>allgEmail</source>
+			</trans-unit>
+			<trans-unit id="ansprechpartner.description">
+				<source>ansprechpartner</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

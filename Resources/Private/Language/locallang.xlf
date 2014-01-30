@@ -1,39 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T14:51:14Z" product-name="dst_ligaverwaltung">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-29T16:25:17Z" product-name="dst_ligaverwaltung">
 		<header/>
 		<body>
 
-			<trans-unit id="tx_dstligaverwaltung_domain_model_saison">
-				<source>Saison</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft">
+				<source>Mannschaft</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.name">
+				<source>Name des Teams</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.ordnungszahl">
+				<source>Ordnungszahl</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.trainer">
+				<source>trainer</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.cotrainer">
+				<source>cotrainer</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.verein">
+				<source>verein</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.halle">
+				<source>halle</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.spieler">
+				<source>spieler</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_mannschaft.ansprechpartner">
+				<source>ansprechpartner</source>
 			</trans-unit>
 			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle">
-				<source>Sporthalle</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer">
+				<source>Trainer</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer.vorname">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer.email">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer.lizenz">
+				<source>lizenz</source>
 			</trans-unit>
 			
 			<trans-unit id="tx_dstligaverwaltung_domain_model_verein">
 				<source>Verein</source>
 			</trans-unit>
-			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_spieler">
-				<source>Spieler</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.strasse">
+				<source>strasse</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.plz">
+				<source>plz</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.ort">
+				<source>ort</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.bundesland_l_v">
+				<source>bundeslandLV</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.land">
+				<source>land</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.webseite">
+				<source>webseite</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.allg_email">
+				<source>allgEmail</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_verein.ansprechpartner">
+				<source>ansprechpartner</source>
 			</trans-unit>
 			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_spiel">
-				<source>Spiel</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner">
+				<source>Ansprechpartner</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner.name">
+				<source>name</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner.vorname">
+				<source>vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner.telp">
+				<source>telp</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner.telmobil">
+				<source>telmobil</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_ansprechpartner.email">
+				<source>email</source>
 			</trans-unit>
 			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_liga">
-				<source>Liga</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle">
+				<source>Sporthalle</source>
 			</trans-unit>
-			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_schiedsrichter">
-				<source>Schiedsrichter</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle.name">
+				<source>name</source>
 			</trans-unit>
-			
-			<trans-unit id="tx_dstligaverwaltung_domain_model_trainer">
-				<source>Trainer</source>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle.adresse">
+				<source>adresse</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle.gymlng">
+				<source>gymlng</source>
+			</trans-unit>
+			<trans-unit id="tx_dstligaverwaltung_domain_model_sporthalle.gymlat">
+				<source>gymlat</source>
 			</trans-unit>
 			
 		</body>

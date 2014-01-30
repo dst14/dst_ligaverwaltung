@@ -50,12 +50,73 @@ class TrainerTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getNameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setNameForStringSetsName() { 
+		$this->fixture->setName('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getName()
+		);
+	}
 	
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getVornameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setVornameForStringSetsVorname() { 
+		$this->fixture->setVorname('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getVorname()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getEmailReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setEmailForStringSetsEmail() { 
+		$this->fixture->setEmail('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getEmail()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getLizenzReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setLizenzForStringSetsLizenz() { 
+		$this->fixture->setLizenz('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getLizenz()
+		);
 	}
 	
 }

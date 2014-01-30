@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026697a6-3c80-4a18-8316-b86e2eef699d" name="Default" comment="" />
+    <list default="true" id="026697a6-3c80-4a18-8316-b86e2eef699d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ExtensionBuilder.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/Index.rst" afterPath="$PROJECT_DIR$/Documentation/Index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Saison.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Saison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Saison.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Saison.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SaisonTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SaisonTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Sporthalle.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Sporthalle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Sporthalle.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Sporthalle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SporthalleTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/SporthalleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Trainer.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Trainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Trainer.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Trainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/TrainerTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/TrainerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Domain/Model/Verein.php" afterPath="$PROJECT_DIR$/Classes/Domain/Model/Verein.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Configuration/TCA/Verein.php" afterPath="$PROJECT_DIR$/Configuration/TCA/Verein.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/Unit/Domain/Model/VereinTest.php" afterPath="$PROJECT_DIR$/Tests/Unit/Domain/Model/VereinTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_tables.php" afterPath="$PROJECT_DIR$/ext_tables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext_tables.sql" afterPath="$PROJECT_DIR$/ext_tables.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_liga.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_liga.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_saison.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_saison.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_schiedsrichter.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_schiedsrichter.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spiel.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spiel.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spieler.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_spieler.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_sporthalle.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_sporthalle.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_trainer.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_trainer.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_verein.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_csh_tx_dstligaverwaltung_domain_model_verein.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" afterPath="$PROJECT_DIR$/Resources/Private/Language/locallang_db.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dst_ligaverwaltung.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,37 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext_emconf.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ext_emconf.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ext_emconf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="762" selection-end="762" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ext_tables.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext_tables.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="39.375" vertical-offset="945" max-vertical-offset="3675">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExtensionBuilder.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExtensionBuilder.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="32" selection-start="5205" selection-end="5205" vertical-scroll-proportion="0.37799042" vertical-offset="2433" max-vertical-offset="4410">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ext_tables.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext_tables.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="26" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="4665">
+            <state line="24" column="19" selection-start="762" selection-end="762" vertical-scroll-proportion="0.5955335" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -87,7 +89,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/ExtensionBuilder.json" />
+        <option value="$PROJECT_DIR$/ext_tables.php" />
         <option value="$PROJECT_DIR$/ext_tables.sql" />
+        <option value="$PROJECT_DIR$/ext_emconf.php" />
       </list>
     </option>
   </component>
@@ -138,6 +142,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dst_ligaverwaltung" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,6 +264,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -241,25 +312,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -288,28 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ext_emconf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="762" selection-end="762" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext_tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="39.375" vertical-offset="945" max-vertical-offset="3675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext_tables.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="26" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="4665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExtensionBuilder.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="32" selection-start="5205" selection-end="5205" vertical-scroll-proportion="0.37799042" vertical-offset="2433" max-vertical-offset="4410">
+        <state line="24" column="19" selection-start="762" selection-end="762" vertical-scroll-proportion="0.5955335" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>

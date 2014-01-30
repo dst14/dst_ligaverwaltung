@@ -50,12 +50,22 @@ class SaisonTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
-	
+
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getSaisonReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setSaisonForStringSetsSaison() { 
+		$this->fixture->setSaison('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getSaison()
+		);
 	}
 	
 }

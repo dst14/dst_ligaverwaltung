@@ -50,12 +50,199 @@ class VereinTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getNameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setNameForStringSetsName() { 
+		$this->fixture->setName('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getName()
+		);
+	}
 	
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getStrasseReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setStrasseForStringSetsStrasse() { 
+		$this->fixture->setStrasse('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getStrasse()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getPlzReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setPlzForStringSetsPlz() { 
+		$this->fixture->setPlz('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getPlz()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getOrtReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setOrtForStringSetsOrt() { 
+		$this->fixture->setOrt('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getOrt()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getBundeslandLVReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setBundeslandLVForStringSetsBundeslandLV() { 
+		$this->fixture->setBundeslandLV('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getBundeslandLV()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getLandReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setLandForStringSetsLand() { 
+		$this->fixture->setLand('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getLand()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getWebseiteReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setWebseiteForStringSetsWebseite() { 
+		$this->fixture->setWebseite('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getWebseite()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getAllgEmailReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setAllgEmailForStringSetsAllgEmail() { 
+		$this->fixture->setAllgEmail('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getAllgEmail()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getAnsprechpartnerReturnsInitialValueForAnsprechpartner() { 
+		$newObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$this->assertEquals(
+			$newObjectStorage,
+			$this->fixture->getAnsprechpartner()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setAnsprechpartnerForObjectStorageContainingAnsprechpartnerSetsAnsprechpartner() { 
+		$ansprechpartner = new \TYPO3\DstLigaverwaltung\Domain\Model\Ansprechpartner();
+		$objectStorageHoldingExactlyOneAnsprechpartner = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneAnsprechpartner->attach($ansprechpartner);
+		$this->fixture->setAnsprechpartner($objectStorageHoldingExactlyOneAnsprechpartner);
+
+		$this->assertSame(
+			$objectStorageHoldingExactlyOneAnsprechpartner,
+			$this->fixture->getAnsprechpartner()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function addAnsprechpartnerToObjectStorageHoldingAnsprechpartner() {
+		$ansprechpartner = new \TYPO3\DstLigaverwaltung\Domain\Model\Ansprechpartner();
+		$objectStorageHoldingExactlyOneAnsprechpartner = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$objectStorageHoldingExactlyOneAnsprechpartner->attach($ansprechpartner);
+		$this->fixture->addAnsprechpartner($ansprechpartner);
+
+		$this->assertEquals(
+			$objectStorageHoldingExactlyOneAnsprechpartner,
+			$this->fixture->getAnsprechpartner()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function removeAnsprechpartnerFromObjectStorageHoldingAnsprechpartner() {
+		$ansprechpartner = new \TYPO3\DstLigaverwaltung\Domain\Model\Ansprechpartner();
+		$localObjectStorage = new \TYPO3\CMS\Extbase\Persistence\Generic\ObjectStorage();
+		$localObjectStorage->attach($ansprechpartner);
+		$localObjectStorage->detach($ansprechpartner);
+		$this->fixture->addAnsprechpartner($ansprechpartner);
+		$this->fixture->removeAnsprechpartner($ansprechpartner);
+
+		$this->assertEquals(
+			$localObjectStorage,
+			$this->fixture->getAnsprechpartner()
+		);
 	}
 	
 }

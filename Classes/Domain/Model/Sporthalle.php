@@ -34,5 +34,111 @@ namespace TYPO3\DstLigaverwaltung\Domain\Model;
  */
 class Sporthalle extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 
+	/**
+	 * name
+	 *
+	 * @var \string
+	 */
+	protected $name;
+
+	/**
+	 * adresse
+	 *
+	 * @var \string
+	 */
+	protected $adresse;
+
+	/**
+	 * gymlng
+	 *
+	 * @var \float
+	 * @validate NotEmpty
+	 */
+	protected $gymlng;
+
+	/**
+	 * gymlat
+	 *
+	 * @var \float
+	 * @validate NotEmpty
+	 */
+	protected $gymlat;
+
+	/**
+	 * Returns the name
+	 *
+	 * @return \string $name
+	 */
+	public function getName() {
+		return $this->name;
+	}
+
+	/**
+	 * Sets the name
+	 *
+	 * @param \string $name
+	 * @return void
+	 */
+	public function setName($name) {
+		$this->name = $name;
+	}
+
+	/**
+	 * Returns the adresse
+	 *
+	 * @return \string $adresse
+	 */
+	public function getAdresse() {
+		return $this->adresse;
+	}
+
+	/**
+	 * Sets the adresse
+	 *
+	 * @param \string $adresse
+	 * @return void
+	 */
+	public function setAdresse($adresse) {
+		$this->adresse = $adresse;
+	}
+
+	/**
+	 * Returns the gymlng
+	 *
+	 * @return \float $gymlng
+	 */
+	public function getGymlng() {
+		return $this->gymlng;
+	}
+
+	/**
+	 * Sets the gymlng
+	 *
+	 * @param \float $gymlng
+	 * @return void
+	 */
+	public function setGymlng($gymlng) {
+		$this->gymlng = $gymlng;
+	}
+
+	/**
+	 * Returns the gymlat
+	 *
+	 * @return \float $gymlat
+	 */
+	public function getGymlat() {
+		return $this->gymlat;
+	}
+
+	/**
+	 * Sets the gymlat
+	 *
+	 * @param \float $gymlat
+	 * @return void
+	 */
+	public function setGymlat($gymlat) {
+		$this->gymlat = $gymlat;
+	}
+
 }
 ?>

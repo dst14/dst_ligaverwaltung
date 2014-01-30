@@ -50,12 +50,83 @@ class SporthalleTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	public function tearDown() {
 		unset($this->fixture);
 	}
+
+	/**
+	 * @test
+	 */
+	public function getNameReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setNameForStringSetsName() { 
+		$this->fixture->setName('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getName()
+		);
+	}
 	
 	/**
 	 * @test
 	 */
-	public function dummyTestToNotLeaveThisFileEmpty() {
-		$this->markTestIncomplete();
+	public function getAdresseReturnsInitialValueForString() { }
+
+	/**
+	 * @test
+	 */
+	public function setAdresseForStringSetsAdresse() { 
+		$this->fixture->setAdresse('Conceived at T3CON10');
+
+		$this->assertSame(
+			'Conceived at T3CON10',
+			$this->fixture->getAdresse()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getGymlngReturnsInitialValueForFloat() { 
+		$this->assertSame(
+			0.0,
+			$this->fixture->getGymlng()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setGymlngForFloatSetsGymlng() { 
+		$this->fixture->setGymlng(3.14159265);
+
+		$this->assertSame(
+			3.14159265,
+			$this->fixture->getGymlng()
+		);
+	}
+	
+	/**
+	 * @test
+	 */
+	public function getGymlatReturnsInitialValueForFloat() { 
+		$this->assertSame(
+			0.0,
+			$this->fixture->getGymlat()
+		);
+	}
+
+	/**
+	 * @test
+	 */
+	public function setGymlatForFloatSetsGymlat() { 
+		$this->fixture->setGymlat(3.14159265);
+
+		$this->assertSame(
+			3.14159265,
+			$this->fixture->getGymlat()
+		);
 	}
 	
 }

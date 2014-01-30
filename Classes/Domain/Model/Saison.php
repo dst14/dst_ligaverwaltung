@@ -32,7 +32,34 @@ namespace TYPO3\DstLigaverwaltung\Domain\Model;
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  *
  */
-class Saison extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
+class Saison extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
+
+	/**
+	 * Spielzeiten-Bezeichner
+	 *
+	 * @var \string
+	 * @validate NotEmpty
+	 */
+	protected $saison;
+
+	/**
+	 * Returns the saison
+	 *
+	 * @return \string $saison
+	 */
+	public function getSaison() {
+		return $this->saison;
+	}
+
+	/**
+	 * Sets the saison
+	 *
+	 * @param \string $saison
+	 * @return void
+	 */
+	public function setSaison($saison) {
+		$this->saison = $saison;
+	}
 
 }
 ?>

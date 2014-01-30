@@ -18,7 +18,7 @@ Extension Name
 :Language: en
 :Author: Daniel Stange
 :Creation: 2014-01-29
-:Generation: 14:51
+:Generation: 16:25
 :Licence: Open Content License available from `www.opencontent.org/opl.shtml <http://www.opencontent.org/opl.shtml>`_
 
 The content of this document is related to TYPO3, a GNU/GPL CMS/Framework available from `www.typo3.org

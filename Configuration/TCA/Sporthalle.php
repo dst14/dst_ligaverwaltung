@@ -6,10 +6,10 @@ if (!defined ('TYPO3_MODE')) {
 $TCA['tx_dstligaverwaltung_domain_model_sporthalle'] = array(
 	'ctrl' => $TCA['tx_dstligaverwaltung_domain_model_sporthalle']['ctrl'],
 	'interface' => array(
-		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden',
+		'showRecordFieldList' => 'sys_language_uid, l10n_parent, l10n_diffsource, hidden, name, adresse, gymlng, gymlat',
 	),
 	'types' => array(
-		'1' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1,--div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access,starttime, endtime'),
+		'1' => array('showitem' => 'sys_language_uid;;;;1-1-1, l10n_parent, l10n_diffsource, hidden;;1, name, adresse, gymlng, gymlat,--div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access,starttime, endtime'),
 	),
 	'palettes' => array(
 		'1' => array('showitem' => ''),
@@ -91,6 +91,42 @@ $TCA['tx_dstligaverwaltung_domain_model_sporthalle'] = array(
 				'range' => array(
 					'lower' => mktime(0, 0, 0, date('m'), date('d'), date('Y'))
 				),
+			),
+		),
+		'name' => array(
+			'exclude' => 0,
+			'label' => 'LLL:EXT:dst_ligaverwaltung/Resources/Private/Language/locallang_db.xlf:tx_dstligaverwaltung_domain_model_sporthalle.name',
+			'config' => array(
+				'type' => 'input',
+				'size' => 30,
+				'eval' => 'trim'
+			),
+		),
+		'adresse' => array(
+			'exclude' => 0,
+			'label' => 'LLL:EXT:dst_ligaverwaltung/Resources/Private/Language/locallang_db.xlf:tx_dstligaverwaltung_domain_model_sporthalle.adresse',
+			'config' => array(
+				'type' => 'input',
+				'size' => 30,
+				'eval' => 'trim'
+			),
+		),
+		'gymlng' => array(
+			'exclude' => 0,
+			'label' => 'LLL:EXT:dst_ligaverwaltung/Resources/Private/Language/locallang_db.xlf:tx_dstligaverwaltung_domain_model_sporthalle.gymlng',
+			'config' => array(
+				'type' => 'input',
+				'size' => 30,
+				'eval' => 'double2,required'
+			),
+		),
+		'gymlat' => array(
+			'exclude' => 0,
+			'label' => 'LLL:EXT:dst_ligaverwaltung/Resources/Private/Language/locallang_db.xlf:tx_dstligaverwaltung_domain_model_sporthalle.gymlat',
+			'config' => array(
+				'type' => 'input',
+				'size' => 30,
+				'eval' => 'double2,required'
 			),
 		),
 	),

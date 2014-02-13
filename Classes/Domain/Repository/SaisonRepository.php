@@ -1,5 +1,5 @@
 <?php
-namespace TYPO3\DstLigaverwaltung\Domain\Model;
+namespace TYPO3\DstLigaverwaltung\Domain\Repository;
 
 /***************************************************************
  *  Copyright notice
@@ -32,59 +32,7 @@ namespace TYPO3\DstLigaverwaltung\Domain\Model;
  * @license http://www.gnu.org/licenses/gpl.html GNU General Public License, version 3 or later
  *
  */
-class Saison extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
-
-	/**
-	 * spieljahr
-	 *
-	 * @var \string
-	 */
-	protected $spieljahr;
-
-	/**
-	 * liga
-	 *
-	 * @var \TYPO3\DstLigaverwaltung\Domain\Model\Liga
-	 */
-	protected $liga;
-
-	/**
-	 * Returns the spieljahr
-	 *
-	 * @return \string $spieljahr
-	 */
-	public function getSpieljahr() {
-		return $this->spieljahr;
-	}
-
-	/**
-	 * Sets the spieljahr
-	 *
-	 * @param \string $spieljahr
-	 * @return void
-	 */
-	public function setSpieljahr($spieljahr) {
-		$this->spieljahr = $spieljahr;
-	}
-
-	/**
-	 * Returns the liga
-	 *
-	 * @return \TYPO3\DstLigaverwaltung\Domain\Model\Liga $liga
-	 */
-	public function getLiga() {
-		return $this->liga;
-	}
-
-	/**
-	 * Sets the liga
-	 *
-	 * @param \TYPO3\DstLigaverwaltung\Domain\Model\Liga $liga
-	 * @return void
-	 */
-	public function setLiga(\TYPO3\DstLigaverwaltung\Domain\Model\Liga $liga) {
-		$this->liga = $liga;
-	}
+class SaisonRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
 
 }
 ?>

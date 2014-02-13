@@ -68,5 +68,15 @@ class SaisonTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 		);
 	}
 	
+	/**
+	 * @test
+	 */
+	public function getLigaReturnsInitialValueForLiga() { }
+
+	/**
+	 * @test
+	 */
+	public function setLigaForLigaSetsLiga() { }
+	
 }
 ?>

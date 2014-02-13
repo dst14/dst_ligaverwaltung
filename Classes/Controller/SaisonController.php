@@ -35,6 +35,14 @@ namespace TYPO3\DstLigaverwaltung\Controller;
 class SaisonController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
 
 	/**
+	 * saisonRepository
+	 *
+	 * @var \TYPO3\DstLigaverwaltung\Domain\Repository\SaisonRepository
+	 * @inject
+	 */
+	protected $saisonRepository;
+
+	/**
 	 * action list
 	 *
 	 * @return void

@@ -377,6 +377,7 @@ CREATE TABLE tx_dstligaverwaltung_domain_model_saison (
 	pid int(11) DEFAULT '0' NOT NULL,
 
 	spieljahr varchar(255) DEFAULT '' NOT NULL,
+	liga int(11) unsigned DEFAULT '0',
 
 	tstamp int(11) unsigned DEFAULT '0' NOT NULL,
 	crdate int(11) unsigned DEFAULT '0' NOT NULL,

@@ -260,7 +260,7 @@ $TCA['tx_dstligaverwaltung_domain_model_saison'] = array(
 			'starttime' => 'starttime',
 			'endtime' => 'endtime',
 		),
-		'searchFields' => 'spieljahr,',
+		'searchFields' => 'spieljahr,liga,',
 		'dynamicConfigFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Configuration/TCA/Saison.php',
 		'iconfile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_dstligaverwaltung_domain_model_saison.gif'
 	),

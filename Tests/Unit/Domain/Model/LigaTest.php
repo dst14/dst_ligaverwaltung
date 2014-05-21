@@ -187,12 +187,12 @@ class LigaTest extends \TYPO3\CMS\Extbase\Tests\Unit\BaseTestCase {
 	/**
 	 * @test
 	 */
-	public function getSaisonReturnsInitialValueForSaison() { }
+	public function getSaisonReturnsInitialValueFor() { }
 
 	/**
 	 * @test
 	 */
-	public function setSaisonForSaisonSetsSaison() { }
+	public function setSaisonForSetsSaison() { }
 	
 }
 ?>

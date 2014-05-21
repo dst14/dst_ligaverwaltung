@@ -59,7 +59,7 @@ class Liga extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	/**
 	 * saison
 	 *
-	 * @var \TYPO3\DstLigaverwaltung\Domain\Model\Saison
+	 * @var
 	 */
 	protected $saison;
 
@@ -189,7 +189,7 @@ class Liga extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	/**
 	 * Returns the saison
 	 *
-	 * @return \TYPO3\DstLigaverwaltung\Domain\Model\Saison $saison
+	 * @return  $saison
 	 */
 	public function getSaison() {
 		return $this->saison;
@@ -198,10 +198,10 @@ class Liga extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	/**
 	 * Sets the saison
 	 *
-	 * @param \TYPO3\DstLigaverwaltung\Domain\Model\Saison $saison
+	 * @param  $saison
 	 * @return void
 	 */
-	public function setSaison(\TYPO3\DstLigaverwaltung\Domain\Model\Saison $saison) {
+	public function setSaison($saison) {
 		$this->saison = $saison;
 	}
 
